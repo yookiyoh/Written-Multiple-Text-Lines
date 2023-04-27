@@ -1,0 +1,8 @@
+Enter line: I am alone in the world.
+Are there more lines (y/n)? y
+Enter line: I am nothing but me.
+Are there more lines (y/n)? y
+Enter line: alright then
+Are there more lines (y/n)? a
+Enter line: Yes
+Are there more lines (y/n)? n
