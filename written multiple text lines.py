@@ -17,8 +17,9 @@ def main():
             
             # ask the user if they want to add more lines
             conditional = input("Are there more lines (y/n)? ")
-
-# write the input to mylife.txt
+            
+            # write the input to mylife.txt
+            input_file.write("Are there more line (y/n)? " + str(conditional) + "\n")
 
 # if user input is yes
   # continue
