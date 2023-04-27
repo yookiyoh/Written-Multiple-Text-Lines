@@ -50,6 +50,14 @@ def main():
                 for i in range(3, 0, -1):
                     print(f"{Fore.CYAN}{Back.WHITE}{Style.BRIGHT}{i}{Style.RESET_ALL}")
                 break
+    
+    # print progress bar while writing to the file
+    print(Fore.YELLOW + "\nSaving to file...\n")
+    for i in tqdm(range(100)):
+        time.sleep(0.01)
+
+    time.sleep(2)
+    print(Fore.GREEN + "\n[File saved successfully!]\n")
 
 def outro():
     print(" ")
