@@ -4,16 +4,16 @@
 # This program write a method in Python to write multiple lines of text contents into a text file.
 
 def main():
-# open the mylife.txt in write mode
-with open("mylife.txt", "w") as input_file:
-    
-    # use looping to keep asking the user for input
-    while True:
-        # ask the user for input
-        user_input = input("Enter line: ")
+    # open the mylife.txt in write mode
+    with open("mylife.txt", "w") as input_file:
         
-        # write the input to the file
-        input_file.write("Enter line: " + str(user_input + "\n"))
+        # use looping to keep asking the user for input
+        while True:
+            # ask the user for input
+            user_input = input("Enter line: ")
+            
+            # write the input to the file
+            input_file.write("Enter line: " + str(user_input + "\n"))
 
 # ask the user if they want to add more lines
 
