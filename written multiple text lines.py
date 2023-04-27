@@ -49,6 +49,16 @@ def main():
                 print(Fore.CYAN + "\n[Exiting program in...] \n")
                 for i in range(3, 0, -1):
                     print(f"{Fore.CYAN}{Back.WHITE}{Style.BRIGHT}{i}{Style.RESET_ALL}")
+                    time.sleep(0.8)
+                break
+
+            # if the user enters an invalid input
+            else:
+                time.sleep(1)
+                print(Fore.CYAN + "\n[Invalid input. Exiting program in...]")
+                for i in range(3, 0, -1):
+                    print(f"{Fore.CYAN}{Back.WHITE}{Style.BRIGHT}{i}{Style.RESET_ALL}")
+                    time.sleep(0.8)
                 break
     
     # print progress bar while writing to the file
