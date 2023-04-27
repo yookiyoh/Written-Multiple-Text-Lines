@@ -8,6 +8,12 @@ import pyfiglet
 from colorama import Fore, Back, Style
 from tqdm import tqdm
 
+def intro():
+    # display heading output
+    print("")
+    heading = pyfiglet.figlet_format("WRITTEN MULTIPLE TEXT LINES", font="3-d", width=90)
+    print(Style.BRIGHT + Fore.CYAN + heading)
+
 def main():
     # open the mylife.txt in write mode
     with open("mylife.txt", "w") as input_file:
