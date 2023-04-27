@@ -16,8 +16,8 @@ def intro():
 
     # create introductory message
     intro = "Input any word or phrase.\n"
-    intro += "Enter 'y' to continue"
-    intro += "Enter 'n' to terminate"
+    intro += f"{Fore.GREEN}\nEnter 'y' to continue.{Style.RESET_ALL}"
+    intro += f"{Fore.RED}\nEnter 'n' to terminate.{Style.RESET_ALL}\n"
     print(intro)
 
 def main():
@@ -27,16 +27,16 @@ def main():
         # use looping to keep asking the user for input
         while True:
             # ask the user for input
-            user_input = input("Enter line: ")
+            user_input = input(f"{Fore.YELLOW}Enter line:{Style.RESET_ALL} ")
             
             # write the input to the file
             input_file.write("Enter line: " + str(user_input + "\n"))
             
             # ask the user if they want to add more lines
-            conditional = input("Are there more lines (y/n)? ")
+            conditional = input(Fore.GREEN + "\033[1mAre there more lines (y/n)?  \033[0m" + Fore.YELLOW)
             
             # write the input to mylife.txt
-            input_file.write("Are there more line (y/n)? " + str(conditional) + "\n")
+            input_file.write("Are there more lines (y/n)? " + str(conditional) + "\n")
             
             # if user input is yes
             if conditional.lower().strip() == "y":
@@ -45,7 +45,9 @@ def main():
             # if user input is no
             elif conditional.lower().strip() == "n":
                 time.sleep(1)
-                print("\n[Exiting program...] \n")
+                print(Fore.CYAN + "\n[Exiting program in...] \n")
+                for i in range(3, 0, -1):
+                    print(f"{Fore.CYAN}{Back.WHITE}{Style.BRIGHT}{i}{Style.RESET_ALL}")
                 break
 
 def outro():
