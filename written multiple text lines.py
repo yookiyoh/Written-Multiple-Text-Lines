@@ -11,8 +11,9 @@ with open("mylife.txt", "w") as input_file:
     while True:
         # ask the user for input
         user_input = input("Enter line: ")
-
-# write the input to the file
+        
+        # write the input to the file
+        input_file.write("Enter line: " + str(user_input + "\n"))
 
 # ask the user if they want to add more lines
 
