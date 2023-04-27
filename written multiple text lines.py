@@ -3,7 +3,10 @@
 # Object-Oriented Programming | Assignment 4 - Problem 3
 # This program write a method in Python to write multiple lines of text contents into a text file.
 
+def main():
 # open the mylife.txt in write mode
+with open("mylife.txt", "w") as input_file:
+
 
 # use looping to keep asking the user for input
 
