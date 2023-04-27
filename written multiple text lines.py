@@ -6,11 +6,10 @@
 def main():
 # open the mylife.txt in write mode
 with open("mylife.txt", "w") as input_file:
-
-
-# use looping to keep asking the user for input
-
-# ask the user for input
+    
+    # use looping to keep asking the user for input
+    while True:
+        # ask the user for input
 
 # write the input to the file
 
