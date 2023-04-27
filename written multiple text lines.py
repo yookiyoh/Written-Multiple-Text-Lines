@@ -4,6 +4,8 @@
 # This program write a method in Python to write multiple lines of text contents into a text file.
 
 import time
+import pyfiglet
+from colorama import Fore, Back, Style
 
 def main():
     # open the mylife.txt in write mode
