@@ -10,6 +10,7 @@ with open("mylife.txt", "w") as input_file:
     # use looping to keep asking the user for input
     while True:
         # ask the user for input
+        user_input = input("Enter line: ")
 
 # write the input to the file
 
