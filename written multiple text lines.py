@@ -14,6 +14,12 @@ def intro():
     heading = pyfiglet.figlet_format("WRITTEN MULTIPLE TEXT LINES", font="3-d", width=90)
     print(Style.BRIGHT + Fore.CYAN + heading)
 
+    # create introductory message
+    intro = "Input any word or phrase.\n"
+    intro += "Enter 'y' to continue"
+    intro += "Enter 'n' to terminate"
+    print(intro)
+
 def main():
     # open the mylife.txt in write mode
     with open("mylife.txt", "w") as input_file:
