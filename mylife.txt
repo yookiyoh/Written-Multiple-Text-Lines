@@ -1,8 +1,6 @@
-Enter line: I am alone in the world.
+Enter line: Beautiful is better than ugly.
 Are there more lines (y/n)? y
-Enter line: I am nothing but me.
+Enter line: Explicit is better than implicit.
 Are there more lines (y/n)? y
-Enter line: alright then
-Are there more lines (y/n)? a
-Enter line: Yes
+Enter line: Simple is better than complex.
 Are there more lines (y/n)? n
