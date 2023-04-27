@@ -6,6 +6,7 @@
 import time
 import pyfiglet
 from colorama import Fore, Back, Style
+from tqdm import tqdm
 
 def main():
     # open the mylife.txt in write mode
