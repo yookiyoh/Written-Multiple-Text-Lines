@@ -24,7 +24,9 @@ def main():
             # if user input is yes
             if conditional.lower().strip() == "y":
                 continue
-  # continue
-
-# if user input is no
-  # exit
+            
+            # if user input is no
+            elif conditional.lower().strip() == "n":
+                time.sleep(1)
+                print("\n[Exiting program...] \n")
+                break
