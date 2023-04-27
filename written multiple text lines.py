@@ -19,6 +19,7 @@ def intro():
     intro += f"{Fore.GREEN}\nEnter 'y' to continue.{Style.RESET_ALL}"
     intro += f"{Fore.RED}\nEnter 'n' to terminate.{Style.RESET_ALL}\n"
     print(intro)
+    time.sleep(1.5)
 
 def main():
     # open the mylife.txt in write mode
