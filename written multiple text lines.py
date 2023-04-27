@@ -47,3 +47,8 @@ def main():
                 time.sleep(1)
                 print("\n[Exiting program...] \n")
                 break
+
+def outro():
+    print(" ")
+    header = pyfiglet.figlet_format("THANK YOU! GOODBYE!", font="banner3-D", width=90)
+    print(Style.BRIGHT + Fore.GREEN + header)
