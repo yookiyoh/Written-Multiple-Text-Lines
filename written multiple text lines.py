@@ -52,3 +52,8 @@ def outro():
     print(" ")
     header = pyfiglet.figlet_format("THANK YOU! GOODBYE!", font="banner3-D", width=90)
     print(Style.BRIGHT + Fore.GREEN + header)
+
+if __name__ == '__main__':
+    intro()
+    main()
+    outro()
